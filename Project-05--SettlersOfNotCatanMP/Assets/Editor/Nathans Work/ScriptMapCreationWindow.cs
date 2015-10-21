@@ -745,7 +745,7 @@ public class ScriptMapCreationWindow : EditorWindow
         int lowestCount = Math.Min(Math.Min(numBrick, numWood), Math.Min(numWheat, numWool));
 
         // Removes hexTypes from string array accordingly
-        if (highestCount - lowestCount >= 2)
+        if (highestCount - lowestCount >= 1)
         {
             // private string[] hexTypeOptions = { "Wood", "Grain", "Wool", "Brick", "None" };
             if (numBrick == highestCount)
@@ -782,7 +782,7 @@ public class ScriptMapCreationWindow : EditorWindow
         int lowestCount = Math.Min(Math.Min(Math.Min(numOnes, numTwos), numThrees), Math.Min(Math.Min(numFours, numFives), numSixes));
 
         // Sets showing string array accordingly
-        if (highestCount - lowestCount >= 2)
+        if (highestCount - lowestCount >= 1)
         {
             if (numOnes == highestCount)
             {

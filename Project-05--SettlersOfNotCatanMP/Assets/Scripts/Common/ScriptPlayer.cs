@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Networking;
 
 /// <summary>
 /// @author Mike Dobson
 /// </summary>
 
-public class ScriptPlayer {
+public class ScriptPlayer : NetworkBehaviour {
 
+    [SyncVar]
     public List<GameObject> settlements;
+    [SyncVar]
     public List<GameObject> roads;
+
+    public List<GameObject> newSettlements;
+
+    public List<GameObject> newRoads;  
 
     public bool EndTurn = false;
     
@@ -20,7 +27,7 @@ public class ScriptPlayer {
             settlement.GetComponent<ScriptBoardCorner>().GainResources(diceRoll);
         }
     }
-
+    
     public int NumLumber
     {
         get;
@@ -107,4 +114,15 @@ public class ScriptPlayer {
         NumLumber -= number;
     }
 
+    [Client]
+    public void TransmitRoads(List<GameObject> roadListToSync)
+    {
+        roads = roadListToSync;
+    }
+
+    [Client]
+    public void TransmitSettlements(List<GameObject> settlementListToSync)
+    {
+        settlements = settlementListToSync;
+    }
 }
