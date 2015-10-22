@@ -9,9 +9,9 @@ using UnityEngine.Networking;
 
 public class ScriptPlayer : NetworkBehaviour {
 
-    [SyncVar]
+   // [SyncVar]
     public List<GameObject> settlements;
-    [SyncVar]
+   // [SyncVar]
     public List<GameObject> roads;
 
     public List<GameObject> newSettlements;
