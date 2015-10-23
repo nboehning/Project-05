@@ -7,7 +7,7 @@ public class ScriptMapCreationWindow : EditorWindow
 {
 
     // Hex map variables
-    private ScriptHex[][] hexMap = new ScriptHex[15][];
+    public ScriptHex[][] hexMap = new ScriptHex[15][];
     private int selectedRow = 7;
     private int selectedColumn = 7;
 
@@ -42,6 +42,8 @@ public class ScriptMapCreationWindow : EditorWindow
     private int numFours;
     private int numFives;
     private int numSixes;
+
+    private ScriptMapExport export;
 
     [MenuItem("Tools/Create New Map")]
     private static void Init()
@@ -725,7 +727,7 @@ public class ScriptMapCreationWindow : EditorWindow
             GUI.color = Color.green;
             if (GUI.Button(exportDataButtonRect, "Export Map"))
             {
-                Debug.Log("Exports the map!");
+                export.ExportMap();
             }
 
             GUI.color = oldColor;
