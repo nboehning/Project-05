@@ -59,6 +59,7 @@ public class ScriptBoardEdge : MonoBehaviour {
             if (hitColliders[i].tag == "Settlement")
             {
                 hitColliders[i].GetComponent<ScriptBoardCorner>().adjacentRoads.Add(this);
+				adjacentSettlements.Add(hitColliders[i].GetComponent<ScriptBoardCorner>());
             }
         }
     }
