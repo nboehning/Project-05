@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
@@ -226,7 +227,7 @@ namespace UnityStandardAssets.Network
         {
             base.OnMatchCreate(matchInfo);
 
-            _currentMatchID = (System.UInt64)matchInfo.networkId;
+            _currentMatchID = (UInt64)matchInfo.networkId;
         }
 
         public void OnMatchDestroyed(BasicResponse resp)
