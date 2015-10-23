@@ -43,7 +43,7 @@ public class ScriptMapCreationWindow : EditorWindow
     private int numFives;
     private int numSixes;
 
-    private ScriptMapExport export;
+    private ScriptMapExport export = new ScriptMapExport();
 
     [MenuItem("Tools/Create New Map")]
     private static void Init()

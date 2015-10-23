@@ -21,7 +21,6 @@ public class ScriptMapExport : EditorWindow
     //Gets the Map Creator script for referanceing
     public ScriptMapCreationWindow mapCreator; 
 
-    [SerializeField]
     public void ExportMap()
     {
         InitializeDefaults();
@@ -36,9 +35,8 @@ public class ScriptMapExport : EditorWindow
             levelName = levelName.Replace(" ", "_");
             Debug.Log(levelName);
         }
-        path = path + levelName + ".txt";
 
-        writer = new StreamWriter(path);
+        writer = new StreamWriter(path + levelName + ".txt");
         using (writer)
         {
             //Writes the level name and author
@@ -77,8 +75,6 @@ public class ScriptMapExport : EditorWindow
     void AdditionalInfo()
     {
         ScriptMapExport window = (ScriptMapExport)EditorWindow.GetWindow(typeof(ScriptMapExport));
-        window.maxSize = new Vector2(250, 100);
-        window.minSize = window.maxSize;
         window.Show();
     }
 
