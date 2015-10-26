@@ -13,6 +13,7 @@ namespace UnityStandardAssets.Network
         public RectTransform lobbyPanel;
 
         public InputField ipInput;
+        [HideInInspector]
         public InputField matchNameInput;
 
         public void OnEnable()
@@ -22,8 +23,8 @@ namespace UnityStandardAssets.Network
             ipInput.onEndEdit.RemoveAllListeners();
             ipInput.onEndEdit.AddListener(onEndEditIP);
 
-            matchNameInput.onEndEdit.RemoveAllListeners();
-            matchNameInput.onEndEdit.AddListener(onEndEditGameName);
+            //matchNameInput.onEndEdit.RemoveAllListeners();
+            //matchNameInput.onEndEdit.AddListener(onEndEditGameName);
         }
 
         public void OnClickHost()

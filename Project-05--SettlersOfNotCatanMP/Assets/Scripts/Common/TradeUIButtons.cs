@@ -129,9 +129,10 @@ public class TradeUIButtons : MonoBehaviour
         Debug.Log("Sending Trade");
     }
 
+    // Updated by Nathan
     public void CancelTrade()
     {
-        Debug.Log("Canceled");
         tradeCanvas.enabled = false;
+        GameObject.Find("Canvas").GetComponent<Canvas>().enabled = true;
     }
 }

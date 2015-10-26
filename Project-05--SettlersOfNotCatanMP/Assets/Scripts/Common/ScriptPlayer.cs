@@ -9,9 +9,8 @@ using UnityEngine.Networking;
 
 public class ScriptPlayer : NetworkBehaviour {
 
-   // [SyncVar]
     public List<GameObject> settlements;
-   // [SyncVar]
+
     public List<GameObject> roads;
 
     public List<GameObject> newSettlements;
@@ -19,7 +18,9 @@ public class ScriptPlayer : NetworkBehaviour {
     public List<GameObject> newRoads;  
 
     public bool EndTurn = false;
-    
+
+    [HideInInspector]
+    public int curPlayer = 0;
 
     public int NumSettlements { get; set; }
     
@@ -87,38 +88,13 @@ public class ScriptPlayer : NetworkBehaviour {
 		}
 		
 	}
-    /*//this was added originally by Victor Haskins to understand how the commands/rcpclients work
-	void Update()
-	{
-		if (isLocalPlayer) {
-			NumSettlements = settlements.Count;
 
-			if(NumSettlements != settlements.Count)
-			{
-				Debug.Log ("Sending command to server...Player " 
-				           + PlayerName + " has " + settlements.Count + " settlements.");
-				for(int i = OldSettlementNum; i < settlements.Count ; i++)
-				{
-					CmdSendSettlementsToServer(settlements[i]);
-				}
+    void Start()
+    {
+        GameObject.Find("GameEngine").GetComponent<ScriptEngine>().curPlayer = curPlayer;
+    }
 
-				OldSettlementNum = settlements.Count;
-			}
 
-            if(NumRoads != roads.Count)
-            {
-                Debug.Log("Sending command to server...Player "
-                           + PlayerName + " has " + roads.Count + " roads");
-                for (int i = OldRoadNum; i < roads.Count; i++)
-                {
-                    CmdSendRoadsToServer();
-                }
-
-                OldRoadNum = roads.Count;
-            }
-		}
-	}
-    */
     //function added by Victor Haskins
     //adds a list of new settlements to the original list.
 	[Command]

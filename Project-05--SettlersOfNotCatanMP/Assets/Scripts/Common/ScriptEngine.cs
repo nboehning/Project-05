@@ -86,11 +86,27 @@ public class ScriptEngine : MonoBehaviour
     int winningPlayerNumber = -1;
     #endregion
 
-    // Use this for initialization
-    void Start()
-    {
+    // Nathan
+    #region Trade Variables
 
-        players.Add(new ScriptPlayer("Mike"));
+    public GameObject tradeCanvas;
+    public GameObject gameCanvas;
+    #endregion
+
+    [HideInInspector]
+    public int curPlayer = 0;       // Variable so engine knows which player is selecting the road/settlements
+    // Use this for initialization
+    private void Start()
+    {
+        // Gets all of the game objects brought in from lobby and adds them to player list
+        GameObject[] tempArray = GameObject.FindGameObjectsWithTag("player");
+
+        for (int i = 0; i < tempArray.Length; i++)
+        {
+            players.Add(tempArray[i].GetComponent<ScriptPlayer>());
+            players[i].curPlayer = i;
+        }
+
         //setup the current state
         CurrentState = GameState.PHASE0;
 
@@ -161,7 +177,7 @@ public class ScriptEngine : MonoBehaviour
     {
         if(NumBrick != null)
         {
-            NumBrick.text = players[0].NumBrick.ToString();
+            NumBrick.text = players[curPlayer].NumBrick.ToString();
         }
         else
         {
@@ -170,7 +186,7 @@ public class ScriptEngine : MonoBehaviour
         
         if(NumGrain != null)
         {
-            NumGrain.text = players[0].NumWheat.ToString();
+            NumGrain.text = players[curPlayer].NumWheat.ToString();
         }
         else
         {
@@ -179,7 +195,7 @@ public class ScriptEngine : MonoBehaviour
 
         if(NumLumber != null)
         {
-            NumLumber.text = players[0].NumLumber.ToString();
+            NumLumber.text = players[curPlayer].NumLumber.ToString();
         }
         else
         {
@@ -188,7 +204,7 @@ public class ScriptEngine : MonoBehaviour
 
         if(NumWool != null)
         {
-            NumWool.text = players[0].NumWool.ToString();
+            NumWool.text = players[curPlayer].NumWool.ToString();
         }
         else
         {
@@ -674,6 +690,13 @@ public class ScriptEngine : MonoBehaviour
         Application.Quit();
     }
     #endregion
+
+    // Nathan
+    public void OpenTradeUI()
+    {
+        tradeCanvas.GetComponent<Canvas>().enabled = true;
+        gameCanvas.GetComponent<Canvas>().enabled = false;
+    }
 }
 
 
