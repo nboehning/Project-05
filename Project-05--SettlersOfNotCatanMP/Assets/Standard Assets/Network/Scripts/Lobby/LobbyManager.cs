@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
@@ -9,7 +8,7 @@ using System.Collections;
 
 namespace UnityStandardAssets.Network
 {
-    public class LobbyManager : NetworkLobbyManager 
+    public class LobbyManager : NetworkLobbyManager
     {
         static public LobbyManager s_Singleton;
 
@@ -33,7 +32,7 @@ namespace UnityStandardAssets.Network
         //used to disconnect a client properly when exiting the matchmaker
         public bool isMatchmaking = false;
         protected bool _disconnectServer = false;
-        
+
         protected System.UInt64 _currentMatchID;
 
         protected UnityStandardAssets.Network.LobbyHook _lobbyHooks;
@@ -170,7 +169,7 @@ namespace UnityStandardAssets.Network
                 StopHost();
             }
 
-            
+
             ChangeTo(mainMenuPanel);
         }
 
@@ -227,7 +226,7 @@ namespace UnityStandardAssets.Network
         {
             base.OnMatchCreate(matchInfo);
 
-            _currentMatchID = (UInt64)matchInfo.networkId;
+            _currentMatchID = (System.UInt64)matchInfo.networkId;
         }
 
         public void OnMatchDestroyed(BasicResponse resp)
@@ -281,7 +280,7 @@ namespace UnityStandardAssets.Network
         {
             //This hook allows you to apply state data from the lobby-player to the game-player
             //just subclass "LobbyHook" and add it to the lobby object.
-
+            
             if (_lobbyHooks)
                 _lobbyHooks.OnLobbyServerSceneLoadedForPlayer(this, lobbyPlayer, gamePlayer);
 

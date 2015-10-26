@@ -8,4 +8,14 @@ public class ScriptButtons : MonoBehaviour
     {
         Application.LoadLevel("SceneGame");
     }
+
+    public void _BtnLoadLobby()
+    {
+        Application.LoadLevel("SceneLobby");
+    }
+
+    public void _BtnMainMenu()
+    {
+        Application.LoadLevel("SceneMenu");
+    }
 }

@@ -1,0 +1,1675 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 550 Ti (ID=0x1244)
+    Vendor:   NVIDIA
+    VRAM:     972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.157 seconds
+desktop: 2560x1440 59Hz; virtual: 6400x1440 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Unity Projects\Project-05\Project-05--SettlersOfNotCatanMP\Tseting_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 258c -> priority: 1 
+  Thread -> id: 3438 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.533753 ms
+UnityException: Tag: Road is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at ScriptBoardManager.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Current state: PHASE0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Entering Phase 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.CheckAndGenerateCorners () [0x00000] in <filename unknown>:0 
+  at ScriptBoardHex.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 7654.
+Total: 2.011297 ms (FindLiveObjects: 0.279522 ms CreateObjectMapping: 0.103236 ms MarkObjects: 1.610426 ms  DeleteObjects: 0.017809 ms)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at ScriptEngine+<GetSettlement>c__Iterator1.MoveNext () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Transitioning from PHASE0 -> PHASE5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Entering Phase 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:GetComponentFastPath (System.Type,intptr)
+  at UnityEngine.Component.GetComponent[NetworkIdentity] () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkBehaviour.get_myView () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkBehaviour.get_isServer () [0x00000] in <filename unknown>:0 
+  at ScriptPlayer.CallCmdSendRoadsToServer () [0x00000] in <filename unknown>:0 
+  at ScriptEngine.Phase5 () [0x00000] in <filename unknown>:0 
+  at ScriptEngine.Transition () [0x00000] in <filename unknown>:0 
+  at ScriptEngine.MoveNextAndTransition (System.String command) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnityException: Invalid Game State transition PHASE5 -> GOTO_PHASE2
+  at ScriptEngine.GetNext (StateCommands command) [0x00000] in <filename unknown>:0 
+  at ScriptEngine.MoveNextAndTransition (System.String command) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnityException: Invalid Game State transition PHASE5 -> GOTO_PHASE2
+  at ScriptEngine.GetNext (StateCommands command) [0x00000] in <filename unknown>:0 
+  at ScriptEngine.MoveNextAndTransition (System.String command) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnityException: Invalid Game State transition PHASE5 -> GOTO_PHASE2
+  at ScriptEngine.GetNext (StateCommands command) [0x00000] in <filename unknown>:0 
+  at ScriptEngine.MoveNextAndTransition (System.String command) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnityException: Invalid Game State transition PHASE5 -> GOTO_PHASE2
+  at ScriptEngine.GetNext (StateCommands command) [0x00000] in <filename unknown>:0 
+  at ScriptEngine.MoveNextAndTransition (System.String command) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:52410}
+aissp: time {107629} lastRecTime {105575} DisTme {2000}, rtt {0} 
+ 
+(Filename:  Line: 1845)
+
+UnityException: Invalid Game State transition PHASE5 -> GOTO_PHASE2
+  at ScriptEngine.GetNext (StateCommands command) [0x00000] in <filename unknown>:0 
+  at ScriptEngine.MoveNextAndTransition (System.String command) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ScriptSaveLoad.Save () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+

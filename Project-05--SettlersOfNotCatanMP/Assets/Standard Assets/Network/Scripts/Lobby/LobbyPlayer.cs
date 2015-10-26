@@ -11,7 +11,19 @@ namespace UnityStandardAssets.Network
     //Any LobbyHook can then grab it and pass those value to the game player prefab (see the Pong Example in the Samples Scenes)
     public class LobbyPlayer : NetworkLobbyPlayer
     {
-        static Color[] Colors = new Color[] { Color.red, Color.magenta, Color.cyan, Color.blue, Color.green, Color.yellow };
+
+        // Added by nathan to support 16 separate colors
+        static Color orange = new Color(1.0f, 137f / 255f, 0);
+        static Color brown = new Color(92f/255f, 49f/255f, 0f);
+        static Color purple = new Color(86f/255f, 0f, 92f/255f);
+        static Color darkGreen = new Color(0f, 53f/255f, 4f/255f);
+        static Color pink = new Color(1f, 102f/255f, 178f/255f);
+        static Color paleBlue = new Color(91f/255f, 193f/255f, 205f/255f);
+        static Color gold = new Color(189f/255f, 233f/255f, 13f/255f);
+        static Color tan = new Color(250f/255f, 212f/255f, 135f/255f);
+        static Color[] Colors = { Color.red, Color.magenta, Color.cyan, Color.blue,
+                                  Color.green, Color.yellow, Color.black, Color.gray,
+                                  orange, brown, purple, darkGreen, pink, paleBlue, gold, tan};
 
         public Button colorButton;
         public InputField nameInput;
