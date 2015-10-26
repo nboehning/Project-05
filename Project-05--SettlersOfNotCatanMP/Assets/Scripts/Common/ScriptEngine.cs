@@ -375,8 +375,7 @@ public class ScriptEngine : MonoBehaviour
                         if (hit.transform.GetComponent<ScriptBoardEdge>().CheckStartRoad())
                         {
                             //added by Victor Haskins
-                            //adds player to edge script
-                            hit.transform.GetComponent<ScriptBoardEdge>().owner = players[0];
+                            //if statement changes road owner for us
                             //adds gameObject to temp list to added to the server.
                             players[0].newRoads.Add((GameObject)hit.transform.gameObject);
                             //run command for server for that player.
@@ -465,6 +464,13 @@ public class ScriptEngine : MonoBehaviour
                             players[0].RemoveLumber(1);
                             players[0].RemoveWheat(1);
                             players[0].RemoveWool(1);
+
+                            //added by Victor Haskins
+                            //if statement changes settlement owner for us.
+                            //add a new settlement to the player's list. will be updated later.
+                            players[0].newSettlements.Add((GameObject)hit.transform.gameObject);
+                            //end additions
+
                             BuildSettlementMenu.SetActive(false);
                             BuildRoadMenu.SetActive(false);
                             ResourcesText();
@@ -509,6 +515,13 @@ public class ScriptEngine : MonoBehaviour
                             Debug.Log("Valid Road Placement");
                             players[0].RemoveBricks(1);
                             players[0].RemoveLumber(1);
+
+                            //added by Victor Haskins
+                            //if statement changes road owner for us.
+                            //add a new road to the player's list. will be updated later.
+                            players[0].newRoads.Add((GameObject)hit.transform.gameObject);
+                            //end additions
+
                             BuildSettlementMenu.SetActive(false);
                             BuildRoadMenu.SetActive(false);
                             ResourcesText();
@@ -605,6 +618,15 @@ public class ScriptEngine : MonoBehaviour
     void Phase5()
     {
         Debug.Log("Entering Phase 5");
+
+        //added by Victor Haskins
+        //for every player in the list, update both the roads and settlements
+        foreach(ScriptPlayer player in players)
+        {
+            player.CmdSendRoadsToServer();
+            player.CmdSendSettlementsToServer();
+        }
+        //end additions
         PhaseTextTransition();
 
         CheckForWinner();
