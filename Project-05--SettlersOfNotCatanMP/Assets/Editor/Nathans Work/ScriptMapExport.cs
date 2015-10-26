@@ -15,11 +15,11 @@ public class ScriptMapExport : EditorWindow
     public string authorName;
 
     //Creates Writer variables
-    private string path = Application.dataPath + "Maps/Custom/";
+    private string path = Application.dataPath + "/Maps/Custom/";
     private StreamWriter writer;
 
     //Gets the Map Creator script for referanceing
-    public ScriptMapCreationWindow mapCreator = new ScriptMapCreationWindow(); 
+    public ScriptMapCreationWindow mapCreator; 
 
     public void ExportMap()
     {
@@ -33,7 +33,13 @@ public class ScriptMapExport : EditorWindow
         if (levelName.Contains(" "))
         {
             levelName = levelName.Replace(" ", "_");
-            Debug.Log(levelName);
+            for (int i = 0; i < ScriptImportLevel.levelNames.Length; i++)
+            {
+                if (ScriptImportLevel.levelNames[i] != null)
+                {
+                    ScriptImportLevel.levelNames[i + 1] = levelName;
+                }
+            }
         }
 
         writer = new StreamWriter(path + levelName + ".txt");
@@ -52,12 +58,15 @@ public class ScriptMapExport : EditorWindow
                 }
             }
             //Sets all hex data
-            for (int i = 0; i < mapCreator.hexMap.GetLength(0); i++)
+            for (int i = 0; i < ScriptMapCreationWindow.hexMap.GetLength(0); i++)
             {
-                for (int j = 0; j < mapCreator.hexMap.GetLength(1); j++)
+                for (int j = 0; j < ScriptMapCreationWindow.hexMap.GetLength(1); j++)
                 {
-                    writer.WriteLine(mapCreator.hexMap[i][j].hexType + "_" + i + "," + j + "_" +
-                        mapCreator.hexMap[i][j].hexNum);
+                    if (ScriptMapCreationWindow.hexMap[i][j] != null)
+                    {
+                        writer.WriteLine(ScriptMapCreationWindow.hexMap[i][j].hexType + "_" + i + "," + j + "_" +
+                            ScriptMapCreationWindow.hexMap[i][j].hexNum);
+                    }
                 }
             }
         }
