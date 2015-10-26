@@ -347,6 +347,11 @@ public class ScriptEngine : MonoBehaviour
                     if (hit.transform.tag == "Settlement")
                     {
                         hit.transform.GetComponent<ScriptBoardCorner>().owner = players[0];
+                        //Added by Victor Haskins
+                        //adds the gameObject from the raycastHit to a list of items to be added
+                        players[0].newSettlements.Add((GameObject)hit.transform.gameObject);
+                        //run command from server for that player to add new settlements.
+                        players[0].CmdSendSettlementsToServer();
                         break;
                     }
                 }
@@ -369,6 +374,13 @@ public class ScriptEngine : MonoBehaviour
                     {
                         if (hit.transform.GetComponent<ScriptBoardEdge>().CheckStartRoad())
                         {
+                            //added by Victor Haskins
+                            //adds player to edge script
+                            hit.transform.GetComponent<ScriptBoardEdge>().owner = players[0];
+                            //adds gameObject to temp list to added to the server.
+                            players[0].newRoads.Add((GameObject)hit.transform.gameObject);
+                            //run command for server for that player.
+                            players[0].CmdSendRoadsToServer();
                             break;
                         }
                     }
