@@ -36,6 +36,12 @@ public class ScriptPlayer : NetworkBehaviour {
 
 	public int OldSettlementNum { get; set; }
 
+    public int NumRoads { get; set; }
+
+    public int OldRoadNum { get; set; }
+
+    public Color PlayerColor { get; set; }
+
     public ScriptPlayer(string Name)
     {
 		settlements = new List<GameObject> ();
@@ -44,6 +50,8 @@ public class ScriptPlayer : NetworkBehaviour {
         PlayerName = Name;
         NumSettlements = 0;
 		OldSettlementNum = 0;
+        NumRoads = 0;
+        OldRoadNum = 0;
         NumBrick = 0;
         NumLumber = 0;
         NumWheat = 0;
@@ -62,6 +70,22 @@ public class ScriptPlayer : NetworkBehaviour {
     public void AddLumber(int number)    { NumLumber += number; }
     public void RemoveLumber(int number) { NumLumber -= number; }
 
+    [ClientRpc]
+    public void RpcSetColor(Color newColor)
+    {
+        PlayerColor = newColor;
+    }
+
+    [Command]
+    public void CmdUpdateResources(int newBrick, int newWheat, int newWool, int newLumber)
+    {
+        NumBrick = newBrick;
+        NumWheat = newWheat;
+        NumWool = newWool;
+        NumLumber = newLumber;
+    }
+
+
 
 	public void GainResources(int diceRoll)
 	{
@@ -79,7 +103,7 @@ public class ScriptPlayer : NetworkBehaviour {
 			if(NumSettlements != settlements.Count)
 			{
 				Debug.Log ("Sending command to server...Player " 
-				           + PlayerName + " has " + settlements.Count);
+				           + PlayerName + " has " + settlements.Count + " settlements.");
 				for(int i = OldSettlementNum; i < settlements.Count ; i++)
 				{
 					CmdSendSettlementsToServer(settlements[i]);
@@ -87,6 +111,18 @@ public class ScriptPlayer : NetworkBehaviour {
 
 				OldSettlementNum = settlements.Count;
 			}
+
+            if(NumRoads != roads.Count)
+            {
+                Debug.Log("Sending command to server...Player "
+                           + PlayerName + " has " + roads.Count + " roads");
+                for (int i = OldRoadNum; i < roads.Count; i++)
+                {
+                    CmdSendRoadsToServer(roads[i]);
+                }
+
+                OldRoadNum = roads.Count;
+            }
 		}
 	}
 
@@ -95,14 +131,21 @@ public class ScriptPlayer : NetworkBehaviour {
 	{
 		Debug.Log ("This will run ONLY on the server.\n" +
 			"Adding a new settlement to the list");
-		settlements.Add (newSettlement);
+        if (newSettlement.GetComponent<ScriptPlayer>() == this)
+        {
+            settlements.Add(newSettlement);
 
-		//how settlements are activated, added, etc. is added here.
+            //how settlements are activated, added, etc. is added here.
 
-		OldSettlementNum = settlements.Count;
-		Debug.Log ("New Settlement Count for Player" + PlayerName + " is " + settlements.Count);
+            OldSettlementNum = settlements.Count;
+            Debug.Log("New Settlement Count for Player" + PlayerName + " is " + settlements.Count);
 
-		RpcClientSettlementUpdate (newSettlement);
+            RpcClientSettlementUpdate(newSettlement);
+        }
+        else
+        {
+            //RpcClientRemoveSettlement(newSettlement);
+        }
 	}
 
 	[ClientRpc]
@@ -110,6 +153,25 @@ public class ScriptPlayer : NetworkBehaviour {
 	{
 		//how settlements are activated, added, etc. is added here.
 	}
+
+    [ClientRpc]
+    void RpcClientRemoveSettlement(GameObject newSettlement)
+    {
+
+    }
+
+    [Command]
+    void CmdSendRoadsToServer(GameObject newRoad)
+    {
+        Debug.Log("This will run ONLY on the server.\n" +
+            "Adding a new road to the list");
+        roads.Add(newRoad);
+
+        OldRoadNum = roads.Count;
+        Debug.Log("New Road Count for Player" + PlayerName + " is " + roads.Count);
+
+
+    }
 
     [Client]
     public void TransmitRoads(List<GameObject> roadListToSync)
