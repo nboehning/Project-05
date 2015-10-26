@@ -32,9 +32,7 @@ public class ScriptPlayer : NetworkBehaviour {
 
     public string PlayerName { get; set; }
 
-    public int NumSettlements { get; set; }
-
-	public int OldSettlementNum { get; set; }
+    public Color PlayerColor { get; set; }
 
     public ScriptPlayer(string Name)
     {
@@ -42,8 +40,6 @@ public class ScriptPlayer : NetworkBehaviour {
 		roads = new List<GameObject> ();
 
         PlayerName = Name;
-        NumSettlements = 0;
-		OldSettlementNum = 0;
         NumBrick = 0;
         NumLumber = 0;
         NumWheat = 0;
@@ -62,6 +58,22 @@ public class ScriptPlayer : NetworkBehaviour {
     public void AddLumber(int number)    { NumLumber += number; }
     public void RemoveLumber(int number) { NumLumber -= number; }
 
+    [ClientRpc]
+    public void RpcSetColor(Color newColor)
+    {
+        PlayerColor = newColor;
+    }
+
+    [Command]
+    public void CmdUpdateResources(int newBrick, int newWheat, int newWool, int newLumber)
+    {
+        NumBrick = newBrick;
+        NumWheat = newWheat;
+        NumWool = newWool;
+        NumLumber = newLumber;
+    }
+
+
 
 	public void GainResources(int diceRoll)
 	{
@@ -71,6 +83,7 @@ public class ScriptPlayer : NetworkBehaviour {
 		}
 		
 	}
+    /*
 	void Update()
 	{
 		if (isLocalPlayer) {
@@ -79,7 +92,7 @@ public class ScriptPlayer : NetworkBehaviour {
 			if(NumSettlements != settlements.Count)
 			{
 				Debug.Log ("Sending command to server...Player " 
-				           + PlayerName + " has " + settlements.Count);
+				           + PlayerName + " has " + settlements.Count + " settlements.");
 				for(int i = OldSettlementNum; i < settlements.Count ; i++)
 				{
 					CmdSendSettlementsToServer(settlements[i]);
@@ -87,29 +100,108 @@ public class ScriptPlayer : NetworkBehaviour {
 
 				OldSettlementNum = settlements.Count;
 			}
+
+            if(NumRoads != roads.Count)
+            {
+                Debug.Log("Sending command to server...Player "
+                           + PlayerName + " has " + roads.Count + " roads");
+                for (int i = OldRoadNum; i < roads.Count; i++)
+                {
+                    CmdSendRoadsToServer();
+                }
+
+                OldRoadNum = roads.Count;
+            }
 		}
 	}
+    */
 
 	[Command]
-	void CmdSendSettlementsToServer(GameObject newSettlement)
+	public void CmdSendSettlementsToServer()
 	{
 		Debug.Log ("This will run ONLY on the server.\n" +
 			"Adding a new settlement to the list");
-		settlements.Add (newSettlement);
+        foreach (GameObject newSettle in newSettlements)
+        {
+            if (newSettle.GetComponent<ScriptBoardCorner>().owner == (this))
+            {
+                settlements.Add(newSettle);
+                RpcClientSettlementUpdate(newSettle);
+            }
+            else
+                Debug.Log("Settlement placement denied. Another Player owns it.");
+        }
 
-		//how settlements are activated, added, etc. is added here.
+        int itemsToRemove = newSettlements.Count;
+        for (int i = 0; i < itemsToRemove; i++)
+        {
+            newSettlements.RemoveAt(0);
+        }
+        Debug.Log("New Road Count for Player" + PlayerName + " is " + roads.Count);
 
-		OldSettlementNum = settlements.Count;
-		Debug.Log ("New Settlement Count for Player" + PlayerName + " is " + settlements.Count);
+    }
 
-		RpcClientSettlementUpdate (newSettlement);
-	}
-
-	[ClientRpc]
+    [ClientRpc]
 	void RpcClientSettlementUpdate(GameObject newSettlement)
 	{
-		//how settlements are activated, added, etc. is added here.
-	}
+        //how settlements are activated, added, etc. is added here.
+        if (!isLocalPlayer)
+        {
+            GameObject board = GameObject.Find("GameBoard");
+            ScriptBoardManager boardManager = board.GetComponent<ScriptBoardManager>();
+            foreach (GameObject child in boardManager.settlements)
+            {
+                if (child == newSettlement)
+                {
+                    child.GetComponent<ScriptBoardCorner>().owner =
+                        newSettlement.GetComponent<ScriptBoardCorner>().owner;
+                }
+            }
+        }
+    }
+
+    [Command]
+    public void CmdSendRoadsToServer()
+    {
+        Debug.Log("This will run ONLY on the server.\n" +
+            "Adding a new road to the list");
+        foreach (GameObject newRoad in newRoads)
+        {
+            if (newRoad.GetComponent<ScriptBoardEdge>().owner == (this))
+            {
+                roads.Add(newRoad);
+                RpcClientRoadUpdate(newRoad);
+            }
+            else
+                Debug.Log("Road placement denied. Another Player owns it.");
+        }
+
+        int itemsToRemove = newRoads.Count;
+        for (int i = 0; i < itemsToRemove; i++)
+        {
+            newRoads.RemoveAt(0);
+        }
+        Debug.Log("New Road Count for Player" + PlayerName + " is " + roads.Count);
+
+    }
+
+    [ClientRpc]
+    void RpcClientRoadUpdate(GameObject newRoad)
+    {
+        if(!isLocalPlayer)
+        {
+            GameObject board = GameObject.Find("GameBoard");
+            ScriptBoardManager boardManager = board.GetComponent<ScriptBoardManager>();
+            foreach (GameObject child in boardManager.roads)
+            {
+                if (child == newRoad)
+                {
+                    child.GetComponent<ScriptBoardEdge>().owner =
+                        newRoad.GetComponent<ScriptBoardEdge>().owner;
+                }
+            }
+        }
+    }
 
     [Client]
     public void TransmitRoads(List<GameObject> roadListToSync)

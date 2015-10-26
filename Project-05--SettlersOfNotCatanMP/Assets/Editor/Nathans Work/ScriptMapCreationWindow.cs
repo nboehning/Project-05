@@ -43,7 +43,7 @@ public class ScriptMapCreationWindow : EditorWindow
     private int numFives;
     private int numSixes;
 
-    private ScriptMapExport export = new ScriptMapExport();
+    private ScriptMapExport exportMap = new ScriptMapExport();
 
     [MenuItem("Tools/Create New Map")]
     private static void Init()
@@ -727,7 +727,7 @@ public class ScriptMapCreationWindow : EditorWindow
             GUI.color = Color.green;
             if (GUI.Button(exportDataButtonRect, "Export Map"))
             {
-                export.ExportMap();
+                exportMap.ExportMap();
             }
 
             GUI.color = oldColor;
